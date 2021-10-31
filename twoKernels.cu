@@ -40,7 +40,7 @@ int main(int argc, char *argv[]){
   unsigned long long difft = dtime_usec(0);
   delay_kernel<<<1,1>>>(delay_t);
   cudaDeviceSynchronize();
-  cudaCheckErrors("kernel fail");
+  //cudaCheckErrors("kernel fail");
   difft = dtime_usec(difft);
   printf("kernel duration: %fs\n", difft/(float)USECPSEC);
   return 0;
