@@ -1,5 +1,5 @@
 # nvidia_mps_tutorials
-This repository contains three easy examples of CUDA code. They all work on the same principle, that is why below you will find the manual only for one of them - `twoKernels`
+This repository contains three easy examples of CUDA code. They all work on the same principle, that is why below you will find the manual only for one of them - `twoKernels`.
 This tutorial shows how to use Nvidia's Multi-Process Service (aka mps) that enables parallelism and concurrency of the threads on the shared server. The source tutorial is found [here](https://stackoverflow.com/questions/34709749/how-do-i-use-nvidia-multi-process-service-mps-to-run-multiple-non-mpi-cuda-app).
 
 ## Here is what you need to do
